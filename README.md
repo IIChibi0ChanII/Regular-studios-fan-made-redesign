@@ -1,1 +1,1 @@
-This website is not mine! the actual website of regualr studi's is https://regularstudiogames.com and i just copied their coode and repolished and redesighned it a bit. thsi is a fan made project to show my love for their game "motorslice".
+This website is not mine! the actual website of regualar studio's is https://regularstudiogames.com and i just copied their coode and repolished and redesighned it a bit. this is a fan made project to show my love for their game "motorslice".
