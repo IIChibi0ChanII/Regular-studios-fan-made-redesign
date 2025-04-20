@@ -1,0 +1,349 @@
+@font-face {
+  font-family: "din1451alt_Bold";
+  src: url("fonts/din1451alt_Bold.ttf");
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 125%;
+  font-family: "din1451alt_Bold";
+  color: #404040;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+h2 {
+  font-size: 18px;
+  font-family: "din1451alt_Bold";
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: "din1451alt_Bold";
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  margin: 0 auto;
+  letter-spacing: 0.1em;
+}
+
+#contact-text {
+  border: 3px dashed #40404048;
+  border-radius: 10px;
+  padding: 10px;
+  display: inline-block;
+  line-height: 1.2;
+  text-align: center;
+  background-color: #ffa515;
+  border-radius: 10px;
+  font-family: "roboto", sans-serif;
+  font-size: 1.4em;
+}
+
+#contact-text span {
+  display: block;
+  font-weight: normal;
+  font-size: 0.9em;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  background-color: #f59900;
+}
+
+.wrapboxHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 300px;
+  padding: 0px;
+}
+#wrapboxHeader div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  margin: 0 auto;
+  flex-direction: row;
+  max-width: 300px;
+  background-color: none;
+  border: 3px solid #404040;
+  border-radius: 30px;
+  height: 35px;
+  width: 35px;
+}
+
+.logo {
+  width: 210px;
+  height: 64px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.social {
+  margin: 0;
+  padding: 0;
+  height: 35px;
+  width: 35px;
+  background: #ffffff;
+  border-radius: 25px;
+  transition: 0.5s;
+}
+
+.rowone {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  background-image: url("Images/Game1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.rowtwo {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  background-image: url("Images/Game2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.rowone,
+.rowtwo {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  will-change: transform;
+  background-attachment: fixed;
+}
+
+.container {
+  position: relative;
+  max-width: 720px;
+  min-width: 33%;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.containerpreview {
+  position: relative;
+  max-width: 720px;
+  min-height: 700px;
+  margin: 0 auto;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-container {
+  background: #f0c46e;
+  position: relative;
+  overflow: auto;
+  padding-top: 56.25%;
+  border: 5px solid #f0c46e;
+  border-radius: 15px;
+  transition: transform 0.5s ease-out;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.video-container:hover {
+  transform: scale(1.02);
+  transition: transform 0.7s ease-out;
+}
+
+.platform {
+  height: 50px;
+  width: 50px;
+  background: #ffffff;
+  border-radius: 25px;
+  transition: 0.5s;
+  text-align: center;
+  margin: 10px;
+  align-items: center;
+}
+
+.platformicon {
+  transition: 0.5s;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 50%;
+  height: 100%;
+  filter: invert(26%) sepia(6%) saturate(3%) hue-rotate(319deg) brightness(93%)
+    contrast(96%);
+}
+
+.imglink {
+  margin: 0 auto;
+}
+
+.wrapbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 10px;
+}
+
+.simplebutton {
+  height: 50px;
+  width: fit-content;
+  padding-left: 25px;
+  padding-right: 25px;
+  background: #fdf1d1;
+  border-radius: 200px;
+  transition: 0.1s;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#music-toggle {
+  height: 50px;
+  width: fit-content;
+  padding-left: 25px;
+  padding-right: 25px;
+  background: #fdf1d1;
+  border-radius: 200px;
+  transition: 0.1s;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#music-toggle:hover {
+  background-color: #f5ba45;
+}
+
+.about {
+  background: transparent;
+  text-align: center;
+  display: block;
+  transition: 0.5s;
+  min-width: 100px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.platform:hover {
+  background-color: #f4b169;
+}
+
+.simplebutton:hover {
+  background-color: #f5ba45;
+}
+
+.social:hover {
+  background-color: #f4b169;
+}
+
+.scroll-effect {
+  opacity: 0;
+  transform: translateZ(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.scroll-effect.in-view {
+  opacity: 1;
+  transform: translateZ(0px);
+}
+#orbie-container {
+  position: absolute;
+}
+#orb {
+  background-image: url(Images/Orbie.PNG);
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-size: cover;
+  transform: scaleX(-1);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  overflow: hidden;
+  bottom: 50px;
+  left: 140px;
+  clip-path: inset(14% 14% 14% 14% round 50%);
+}
+#speech-bubble {
+  position: relative;
+  background-image: url(Images/pixel-speech-bubble.png);
+  width: 800px;
+  height: 60px;
+  bottom: 200px;
+  right: 4%;
+  background-size: cover;
+}
+.bottom-margin {
+  margin-bottom: 150px;
+}
+.top-margin {
+  margin-top: 200px;
+}
+.platform:hover .platformicon,
+.social:hover {
+  transform: scale(1.1);
+}
+.platformicon,
+.social {
+  transition: transform 0.3s ease;
+}
+@media (max-width: 768px) {
+  #speech-bubble {
+    transform: scale(0.7);
+    right: 15%;
+  }
+  #orb {
+    left: 100px;
+    bottom: 70px;
+    width: 80px;
+    height: 80px;
+  }
+}
+#music-toggle {
+  background-color: #fdf1d1;
+  border: none;
+  border-radius: 30px;
+  width: 200px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: din1451alt_Bold;
+  margin-top: 40px;
+  margin-bottom: -30px;
+}
+#copyright-of-music {
+  position: relative;
+  margin-top: 40px;
+  color: #ffffff;
+  text-align: center;
+  font-family: din1451alt_Bold;
+}
