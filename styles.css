@@ -53,6 +53,7 @@ h3 {
 
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 .header {
@@ -61,6 +62,9 @@ body {
   padding-top: 10px;
   padding-bottom: 25px;
   background-color: #f59900;
+}
+html{
+  overflow-x: hidden;
 }
 
 .wrapboxHeader {
@@ -274,6 +278,7 @@ body {
 }
 #orbie-container {
   position: absolute;
+  max-width: 330px;
 }
 #orb {
   background-image: url(Images/Orbie.PNG);
@@ -315,14 +320,21 @@ body {
 }
 @media (max-width: 768px) {
   #speech-bubble {
-    transform: scale(0.7);
-    right: 15%;
+    transform: scale(0.45);
+    right: 70%;
   }
   #orb {
-    left: 100px;
-    bottom: 70px;
+    transform: scaleX(-1) scale(0.8);
+    left: 30px;
+    bottom: 90px;
     width: 80px;
     height: 80px;
+  }
+  .mobile-fix {
+    height: 100%;
+  }
+  #mobile-contact-fix{
+    scale: 0.8;
   }
 }
 #music-toggle {
